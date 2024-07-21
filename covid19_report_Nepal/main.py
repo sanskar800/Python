@@ -1,8 +1,8 @@
-import requests  # Library for making HTTP requests
-import pandas as pd  # Library for working with data frames
-import seaborn as sns  # Library for data visualization
-import matplotlib.pyplot as plt  # Library for data visualization
-import random  # Library for generating random numbers
+import requests  
+import pandas as pd  
+import seaborn as sns  
+import matplotlib.pyplot as plt 
+import random  
 
 # Get data from API
 response = requests.get('https://api.covid19api.com/total/country/nepal')
